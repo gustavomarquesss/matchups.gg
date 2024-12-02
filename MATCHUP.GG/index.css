@@ -1,0 +1,762 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 100%; /* Ajustado para ser responsivo */
+  height: 545px;
+}
+.starry-sky-background-wwls945h-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Mantém a largura como a do pai */
+  height: 545px;
+  object-fit: cover;
+}
+.background-parent {
+  position: absolute;
+  top: 479px;
+  left: 0;
+  width: 100%; /* Responsivo */
+  height: 545px;
+}
+.background2 {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  background-color: var(--color-crimson-100);
+  width: 100%; /* Responsivo */
+  height: 480px;
+}
+.container1 {
+  position: absolute;
+  top: 512px;
+  left: 12.5%; /* Centraliza horizontalmente */
+  box-shadow: 0 4px 12.7px 9px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-lg);
+  background-color: var(--color-crimson-200);
+  width: 30%; /* Responsivo */
+  height: 360px;
+}
+.container2 {
+  position: absolute;
+  top: 512px;
+  left: calc(50% + 20px); /* Relativo ao centro */
+  box-shadow: 0 4px 12.7px 9px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-lg);
+  background-color: var(--color-crimson-200);
+  width: 30%;
+  height: 360px;
+}
+.container21 {
+  position: absolute;
+  top: 591px;
+  left: 840px;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-crimson-100);
+  width: 420px;
+  height: 80px;
+}
+.container22 {
+  position: absolute;
+  top: 751px;
+  left: 840px;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-crimson-100);
+  width: 420px;
+  height: 80px;
+}
+.container23 {
+  position: absolute;
+  top: 591px;
+  left: 840px;
+  background-color: var(--color-deepskyblue);
+  width: 4px;
+  height: 80px;
+}
+.container24 {
+  position: absolute;
+  top: 671px;
+  left: 840px;
+  background-color: var(--color-deepskyblue);
+  width: 4px;
+  height: 80px;
+}
+.container25 {
+  position: absolute;
+  top: 751px;
+  left: 840px;
+  background-color: var(--color-red-200);
+  width: 4px;
+  height: 80px;
+}
+.container11 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-firebrick);
+  width: 27.9px;
+  height: 27.9px;
+}
+.container12 {
+  position: absolute;
+  top: 37.2px;
+  left: 0px;
+  background-color: var(--color-firebrick);
+  width: 27.9px;
+  height: 27.9px;
+}
+.container13 {
+  position: absolute;
+  top: 74.5px;
+  left: 0px;
+  background-color: var(--color-firebrick);
+  width: 27.9px;
+  height: 27.9px;
+}
+.container14 {
+  position: absolute;
+  top: 111.7px;
+  left: 0px;
+  background-color: var(--color-firebrick);
+  width: 27.9px;
+  height: 27.9px;
+}
+.container15 {
+  position: absolute;
+  top: 148.9px;
+  left: 0px;
+  background-color: var(--color-firebrick);
+  width: 27.9px;
+  height: 27.9px;
+}
+.container16 {
+  position: absolute;
+  top: 186.1px;
+  left: 0px;
+  background-color: var(--color-firebrick);
+  width: 27.9px;
+  height: 27.9px;
+}
+.container17 {
+  position: absolute;
+  top: 223.4px;
+  left: 0px;
+  background-color: var(--color-firebrick);
+  width: 27.9px;
+  height: 27.9px;
+}
+.container1-parent {
+  position: absolute;
+  top: 610px;
+  left: 199px;
+  width: 27.9px;
+  height: 251.3px;
+}
+.top {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-black);
+  width: 200px;
+  height: 63px;
+}
+.jungle {
+  position: absolute;
+  top: 74px;
+  left: 0px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-black);
+  width: 200px;
+  height: 63px;
+}
+.mid {
+  position: absolute;
+  top: 149px;
+  left: 0px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-black);
+  width: 200px;
+  height: 62px;
+}
+.adc {
+  position: absolute;
+  top: 223px;
+  left: 0px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-black);
+  width: 200px;
+  height: 63px;
+}
+.suporte {
+  position: absolute;
+  top: 297px;
+  left: 0px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-black);
+  width: 200px;
+  height: 63px;
+}
+.bottomlanes {
+  position: absolute;
+  top: 0px;
+  left: 426px;
+  width: 200px;
+  height: 360px;
+}
+.e92a52d3427ef6b24ea7fb88c40fda-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-lg);
+  width: 200px;
+  height: 63px;
+  object-fit: cover;
+}
+.e92a52d3427ef6b24ea7fb88c40fda-icon1 {
+  position: absolute;
+  top: 74px;
+  left: 1px;
+  border-radius: var(--br-lg);
+  width: 200px;
+  height: 63px;
+  object-fit: cover;
+}
+.e92a52d3427ef6b24ea7fb88c40fda-icon2 {
+  position: absolute;
+  top: 149px;
+  left: 0px;
+  border-radius: var(--br-lg);
+  width: 200px;
+  height: 63px;
+  object-fit: cover;
+}
+.e92a52d3427ef6b24ea7fb88c40fda-icon3 {
+  position: absolute;
+  top: 223px;
+  left: 1px;
+  border-radius: var(--br-lg);
+  width: 200px;
+  height: 63px;
+  object-fit: cover;
+}
+.e92a52d3427ef6b24ea7fb88c40fda-icon4 {
+  position: absolute;
+  top: 297px;
+  left: 1px;
+  border-radius: var(--br-lg);
+  width: 200px;
+  height: 63px;
+  object-fit: cover;
+}
+.backgroundbottomlanes {
+  position: absolute;
+  top: 0px;
+  left: 426px;
+  width: 201px;
+  height: 360px;
+}
+.jungle1 {
+  position: absolute;
+  top: 75px;
+  left: 467px;
+  font-weight: 900;
+}
+.mid1 {
+  position: absolute;
+  top: 150px;
+  left: 498px;
+  font-weight: 900;
+}
+.adc1 {
+  position: absolute;
+  top: 224px;
+  left: 491px;
+  font-weight: 900;
+}
+.top1 {
+  position: absolute;
+  top: 1px;
+  left: 500px;
+  font-weight: 900;
+}
+.estatsticas {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+}
+.pro-builds {
+  position: absolute;
+  top: 5px;
+  left: 662px;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+}
+.melhore-sua-jogabilidade {
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  font-size: var(--font-size-7xs);
+  font-weight: 900;
+}
+.fique-frente {
+  position: absolute;
+  top: 36px;
+  left: 662px;
+  font-size: var(--font-size-7xs);
+  font-weight: 900;
+}
+.sup {
+  position: absolute;
+  top: 298px;
+  left: 498px;
+  font-weight: 900;
+}
+.lanes {
+  position: absolute;
+  top: 512px;
+  left: 194px;
+  width: 820px;
+  height: 360px;
+  font-size: var(--font-size-5xl);
+}
+.banner-1-icon {
+  position: absolute;
+  top: 32px;
+  left: 0px;
+  width: 1440px;
+  height: 447px;
+  object-fit: cover;
+}
+.barrapesquisar2 {
+  position: absolute;
+  top: 228px;
+  left: 400px;
+  border-radius: 24px;
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 640px;
+  height: 48px;
+}
+.header1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-radius: 0px 0px var(--br-lg) var(--br-lg);
+  background-color: var(--color-black);
+  width: 100vw;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+}
+.header2 {
+  position: absolute;
+  top: 56px;
+  left: 451px;
+  border-radius: 0px 0px var(--br-lg) var(--br-lg);
+  background-color: var(--color-black);
+  width: 534px;
+  height: 36px;
+}
+.header3 {
+  position: absolute;
+  top: 89px;
+  left: 510px;
+  border-radius: var(--br-11xs) var(--br-11xs) 0px 0px;
+  background-color: #820000;
+  width: 38px;
+  height: 3px;
+}
+.starry-sky-background-wwls945h-icon1 {
+  position: absolute;
+  top: -1px;
+  left: 1px;
+  border-radius: 0px 0px var(--br-lg) var(--br-lg);
+  width: 1440px;
+  height: 57px;
+  object-fit: cover;
+  display: none;
+}
+.barrapesquisar {
+  position: relative;
+  top: 16px;
+  left: 455px;
+  border-radius: var(--br-base);
+  background-color: var(--color-dimgray);
+  width: 530px;
+  height: 24px;
+}
+.buscar-campeao-ou {
+  position: absolute;
+  top: 18px;
+  left: 463px;
+}
+.buscar {
+  position: absolute;
+  top: 244px;
+  left: 696px;
+}
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 261px;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-arial);
+}
+.aatrox-1-icon {
+  position: absolute;
+  top: 610px;
+  left: 199px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+.ahri-1-icon {
+  position: absolute;
+  top: 647px;
+  left: 199px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+.akali-1-icon {
+  position: absolute;
+  top: 684px;
+  left: 199px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+.akshan-1-icon {
+  position: absolute;
+  top: 722px;
+  left: 199px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+.alistar-1-icon {
+  position: absolute;
+  top: 759px;
+  left: 199px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+.ambessa-1-icon {
+  position: absolute;
+  top: 796px;
+  left: 199px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+.anivia-1-icon {
+  position: absolute;
+  top: 833px;
+  left: 199px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+.aatrox {
+  position: absolute;
+  top: 603px;
+  left: 247px;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  display: inline-block;
+  width: 142px;
+  height: 42px;
+}
+.tier {
+  position: absolute;
+  top: 575px;
+  left: 410px;
+  font-weight: 900;
+  display: inline-block;
+  width: 31px;
+  height: 25px;
+}
+.taxa-de-vitria {
+  position: absolute;
+  top: 575px;
+  left: 499px;
+  font-weight: 900;
+  display: inline-block;
+  width: 99px;
+  height: 25px;
+}
+.akshan {
+  position: absolute;
+  top: 715px;
+  left: 247px;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  display: inline-block;
+  width: 142px;
+  height: 42px;
+}
+.ahri {
+  position: absolute;
+  top: 640px;
+  left: 247px;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  display: inline-block;
+  width: 142px;
+  height: 42px;
+}
+.alistar {
+  position: absolute;
+  top: 752px;
+  left: 247px;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  display: inline-block;
+  width: 142px;
+  height: 42px;
+}
+.akali {
+  position: absolute;
+  top: 677px;
+  left: 247px;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  display: inline-block;
+  width: 142px;
+  height: 42px;
+}
+.ambessa {
+  position: absolute;
+  top: 789px;
+  left: 247px;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  display: inline-block;
+  width: 142px;
+  height: 42px;
+}
+.anivia {
+  position: absolute;
+  top: 820px;
+  left: 247px;
+  font-size: var(--font-size-base);
+  font-weight: 900;
+  display: inline-block;
+  width: 142px;
+  height: 42px;
+}
+.medal-award-transparent-free-p-icon {
+  position: absolute;
+  top: 600px;
+  left: 400px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+.medal-award-transparent-free-p-icon1 {
+  position: absolute;
+  top: 712px;
+  left: 400px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+.medal-award-transparent-free-p-icon2 {
+  position: absolute;
+  top: 637px;
+  left: 400px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+.medal-award-transparent-free-p-icon3 {
+  position: absolute;
+  top: 749px;
+  left: 400px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+.medal-award-transparent-free-p-icon4 {
+  position: absolute;
+  top: 674px;
+  left: 400px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+.medal-award-transparent-free-p-icon5 {
+  position: absolute;
+  top: 786px;
+  left: 400px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+.medal-award-transparent-free-p-icon6 {
+  position: absolute;
+  top: 817px;
+  left: 400px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+.div {
+  position: absolute;
+  top: 610px;
+  left: 530px;
+  font-weight: 900;
+  display: inline-block;
+  width: 19px;
+  height: 21px;
+}
+.div1 {
+  position: absolute;
+  top: 644px;
+  left: 530px;
+  font-weight: 900;
+  display: inline-block;
+  width: 19px;
+  height: 21px;
+}
+.div2 {
+  position: absolute;
+  top: 678px;
+  left: 530px;
+  font-weight: 900;
+  display: inline-block;
+  width: 19px;
+  height: 21px;
+}
+.div3 {
+  position: absolute;
+  top: 719px;
+  left: 530px;
+  font-weight: 900;
+  display: inline-block;
+  width: 19px;
+  height: 21px;
+}
+.div4 {
+  position: absolute;
+  top: 756px;
+  left: 530px;
+  font-weight: 900;
+  display: inline-block;
+  width: 19px;
+  height: 21px;
+}
+.div5 {
+  position: absolute;
+  top: 793px;
+  left: 530px;
+  font-weight: 900;
+  display: inline-block;
+  width: 19px;
+  height: 21px;
+}
+.div6 {
+  position: absolute;
+  top: 824px;
+  left: 530px;
+  font-weight: 900;
+  display: inline-block;
+  width: 19px;
+  height: 21px;
+}
+.incio {
+  position: absolute;
+  top: 56px;
+  left: 507px;
+  font-size: var(--font-size-smi);
+  font-weight: 900;
+  display: inline-block;
+  width: 64px;
+  height: 33px;
+}
+.campees {
+  position: absolute;
+  top: 56px;
+  left: 597px;
+  font-size: var(--font-size-smi);
+  font-weight: 900;
+  display: inline-block;
+  width: 102px;
+  height: 33px;
+}
+.tier-list {
+  position: absolute;
+  top: 56px;
+  left: 726px;
+  font-size: var(--font-size-smi);
+  font-weight: 900;
+  display: inline-block;
+  width: 93px;
+  height: 33px;
+}
+.matchups {
+  position: absolute;
+  top: 56px;
+  left: 846px;
+  font-size: var(--font-size-smi);
+  font-weight: 900;
+  display: inline-block;
+  width: 101px;
+  height: 33px;
+}
+.home-child {
+  position: absolute;
+  top: 7px;
+  left: 1355px;
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 0);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 43px;
+  height: 43px;
+}
+.home-item {
+  position: absolute;
+  top: 13px;
+  left: 1370px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  width: 13px;
+  height: 13px;
+}
+.home-inner {
+  position: absolute;
+  top: 28px;
+  left: 1359px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  width: 35px;
+  height: 20px;
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+  font-family: var(--font-inknut-antiqua);
+}
+
+.banner-1-icon {
+  position: absolute;
+  top: 32px;
+  left: 0px;
+  width: 100%;
+  height: 447px;
+  object-fit: cover;
+}

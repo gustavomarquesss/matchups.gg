@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inknut-antiqua: "Inknut Antiqua";
+  --font-arial: Arial;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-smi: 13px;
+  --font-size-3xs: 10px;
+  --font-size-base: 16px;
+  --font-size-mini: 15px;
+  --font-size-5xl: 24px;
+  --font-size-7xs: 6px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro-100: #d9d9d9;
+  --color-dimgray: rgba(115, 115, 115, 0.7);
+  --color-black: #000;
+  --color-gray-100: #13151b;
+  --color-gray-200: rgba(19, 21, 27, 0.5);
+  --color-gray-300: rgba(19, 21, 27, 0.75);
+  --color-gray-400: rgba(0, 0, 0, 0.7);
+  --color-firebrick: rgba(203, 23, 23, 0.5);
+  --color-red-100: #f91a1a;
+  --color-red-200: #ff0000;
+  --color-deepskyblue: #00d0ff;
+  --color-crimson-100: #df2d2d;
+  --color-crimson-200: rgba(223, 45, 45, 0.2);
+  --color-darkslategray: #333f40;
+  --color-tomato-100: #ff5f5f;
+  --color-tomato-200: #ff4d4d;
+  --color-silver: #beb8b8;
+  --color-mediumblue: #1e4ffe;
+  --color-mediumslateblue: #8280ff;
+  --color-darkturquoise: #2dd4df;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-lg: 18px;
+  --br-11xs: 2px;
+  --br-5xs: 8px;
+  --br-8xs: 5px;
+  --br-7xs: 6px;
+}
