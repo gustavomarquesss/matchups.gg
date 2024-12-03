@@ -1,33 +1,25 @@
 .background {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: var(--color-darkslategray);
   width: 100%; /* Ajustado para ser responsivo */
-  height: 545px;
+  height: 100%;
 }
 .starry-sky-background-wwls945h-icon {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%; /* Mantém a largura como a do pai */
-  height: 545px;
+  height: 100%;
   object-fit: cover;
 }
 .background-parent {
-  position: absolute;
+  position: fixed;
   top: 479px;
   left: 0;
   width: 100%; /* Responsivo */
-  height: 545px;
-}
-.background2 {
-  position: absolute;
-  top: -2px;
-  left: 0;
-  background-color: var(--color-crimson-100);
-  width: 100%; /* Responsivo */
-  height: 480px;
+  height: 100%;
 }
 .container1 {
   position: absolute;
@@ -35,7 +27,7 @@
   left: 12.5%; /* Centraliza horizontalmente */
   box-shadow: 0 4px 12.7px 9px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-lg);
-  background-color: var(--color-crimson-200);
+  background-color: #A52A2A; /* Cor sólida sem transparência */
   width: 30%; /* Responsivo */
   height: 360px;
 }
@@ -45,114 +37,9 @@
   left: calc(50% + 20px); /* Relativo ao centro */
   box-shadow: 0 4px 12.7px 9px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-lg);
-  background-color: var(--color-crimson-200);
+  background-color: #A52A2A; /* Cor sólida sem transparência */
   width: 30%;
   height: 360px;
-}
-.container21 {
-  position: absolute;
-  top: 591px;
-  left: 840px;
-  border-radius: var(--br-11xs);
-  background-color: var(--color-crimson-100);
-  width: 420px;
-  height: 80px;
-}
-.container22 {
-  position: absolute;
-  top: 751px;
-  left: 840px;
-  border-radius: var(--br-11xs);
-  background-color: var(--color-crimson-100);
-  width: 420px;
-  height: 80px;
-}
-.container23 {
-  position: absolute;
-  top: 591px;
-  left: 840px;
-  background-color: var(--color-deepskyblue);
-  width: 4px;
-  height: 80px;
-}
-.container24 {
-  position: absolute;
-  top: 671px;
-  left: 840px;
-  background-color: var(--color-deepskyblue);
-  width: 4px;
-  height: 80px;
-}
-.container25 {
-  position: absolute;
-  top: 751px;
-  left: 840px;
-  background-color: var(--color-red-200);
-  width: 4px;
-  height: 80px;
-}
-.container11 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: var(--color-firebrick);
-  width: 27.9px;
-  height: 27.9px;
-}
-.container12 {
-  position: absolute;
-  top: 37.2px;
-  left: 0px;
-  background-color: var(--color-firebrick);
-  width: 27.9px;
-  height: 27.9px;
-}
-.container13 {
-  position: absolute;
-  top: 74.5px;
-  left: 0px;
-  background-color: var(--color-firebrick);
-  width: 27.9px;
-  height: 27.9px;
-}
-.container14 {
-  position: absolute;
-  top: 111.7px;
-  left: 0px;
-  background-color: var(--color-firebrick);
-  width: 27.9px;
-  height: 27.9px;
-}
-.container15 {
-  position: absolute;
-  top: 148.9px;
-  left: 0px;
-  background-color: var(--color-firebrick);
-  width: 27.9px;
-  height: 27.9px;
-}
-.container16 {
-  position: absolute;
-  top: 186.1px;
-  left: 0px;
-  background-color: var(--color-firebrick);
-  width: 27.9px;
-  height: 27.9px;
-}
-.container17 {
-  position: absolute;
-  top: 223.4px;
-  left: 0px;
-  background-color: var(--color-firebrick);
-  width: 27.9px;
-  height: 27.9px;
-}
-.container1-parent {
-  position: absolute;
-  top: 610px;
-  left: 199px;
-  width: 27.9px;
-  height: 251.3px;
 }
 .top {
   position: absolute;
@@ -740,18 +627,6 @@
   width: 35px;
   height: 20px;
 }
-.home {
-  width: 100%;
-  position: relative;
-  background-color: var(--color-white);
-  height: 1024px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-3xs);
-  color: var(--color-white);
-  font-family: var(--font-inknut-antiqua);
-}
-
 .banner-1-icon {
   position: absolute;
   top: 32px;
